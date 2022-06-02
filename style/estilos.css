@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*div conteiner*/
+.datos{
+    display: flex;
+    margin: 3%;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 1% 2%;
+}
+
+/*imagen logo*/
+.logo{
+    width: 18%;
+}
+.logo img{
+    width: 100%;
+}
+
+/*titulo*/
+.titulo{
+    width: 60%;
+    margin: auto 0;
+    padding: 0.5%;
+}
+.titulo h1{
+    font-size: 2.5vw;
+    color: blue;
+}
+.titulo b{
+    color: black;
+    margin: 5%;
+}
+
+/*ruc*/
+.ruc{
+    width: 22%;
+    margin: auto 0;
+    border: 0.5vw solid black;
+    padding: 1%;
+}
+.ruc h2{
+    font-size: 2vw;
+    margin-bottom: 5%;
+}
+.ruc input{
+    width: 80%;
+    height: 4vw;
+} 
+
+
+/*formulario*/
+.formulario{
+    display: flex;
+    margin: 3%;
+    background-color: aquamarine;
+    padding: 1%;
+}
+/*parte 01*/
+.informacion{
+    margin: 3% 2%;
+    float: left;
+}
+.informacion label{
+    font-size: 2.2vw;
+    width: 12vw;
+    display: inline-block;
+    margin: 0.9vw 0vw;
+}
+.informacion input{
+    width: 25vw;
+    height: 2.8vw;
+    font-size: 1.6vw;
+}
+.informacion select{
+    width: 25vw;
+    height: 3vw;
+    font-size: 1.6vw;
+}
+
+/*parte 02*/
+.pago{
+    margin: 3% 2%;
+    float: right;
+    width: 50%;
+}
